@@ -1,0 +1,119 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 72926635424153078
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: Department Master ============================
+    id: 72926875478153078
+    identification: 
+      name: Department Master
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Department Master
+
+  - # ====== Entry: Instructor Registry ==========================
+    id: 72958192916153105
+    identification: 
+      name: Instructor Registry
+      page-number: 2
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # Instructor Registry
+
+  - # ====== Entry: Course Catalog ===============================
+    id: 72972217242153109
+    identification: 
+      name: Course Catalog
+      page-number: 3
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:3:&APP_SESSION.::&DEBUG.:::'
+        page: 3 # Course Catalog
+
+  - # ====== Entry: Course Instructor Assignments ================
+    id: 72982328452153112
+    identification: 
+      name: Course Instructor Assignments
+      page-number: 4
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Course Instructor Assignments
+
+  - # ====== Entry: Department Report ============================
+    id: 72993782666153143
+    identification: 
+      name: Department Report
+      page-number: 5
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:5:&APP_SESSION.::&DEBUG.:::'
+        page: 5 # Department Report
+
+  - # ====== Entry: Instructor Report ============================
+    id: 73008649229153158
+    identification: 
+      name: Instructor Report
+      page-number: 7
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:7:&APP_SESSION.::&DEBUG.:::'
+        page: 7 # Instructor Report
+
+  - # ====== Entry: Course Report ================================
+    id: 73026947800153175
+    identification: 
+      name: Course Report
+      page-number: 9
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:9:&APP_SESSION.::&DEBUG.:::'
+        page: 9 # Course Report
+
+  - # ====== Entry: Course Instructor Report =====================
+    id: 73039702321153191
+    identification: 
+      name: Course Instructor Report
+      page-number: 11
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:11:&APP_SESSION.::&DEBUG.:::'
+        page: 11 # Course Instructor Report
+

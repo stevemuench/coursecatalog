@@ -1,0 +1,61 @@
+---
+- # ====== List of Values: SCH_DEPARTMENT.NAME =================
+  id: 72956575113153103
+  identification: 
+    name: SCH_DEPARTMENT.NAME
+
+  subscription: 
+    version-number: 57288506
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: SCH_DEPARTMENT
+
+  column-mapping: 
+    return: ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: SCH_COURSE.TITLE ====================
+  id: 72980061067153111
+  identification: 
+    name: SCH_COURSE.TITLE
+
+  subscription: 
+    version-number: 57288520
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: SCH_COURSE
+
+  column-mapping: 
+    return: ID
+    display: TITLE
+    default-sort: TITLE
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: SCH_INSTRUCTOR.FIRST_NAME ===========
+  id: 72980780554153112
+  identification: 
+    name: SCH_INSTRUCTOR.FIRST_NAME
+
+  subscription: 
+    version-number: 57288520
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: SCH_INSTRUCTOR
+
+  column-mapping: 
+    return: ID
+    display: FIRST_NAME
+    default-sort: FIRST_NAME
+    sort-direction: Ascending (Nulls Last)
+
