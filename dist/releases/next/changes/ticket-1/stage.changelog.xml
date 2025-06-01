@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+<include file="smuench/tables/sch_course.sql" relativeToChangelogFile="true"/>
+<include file="smuench/package_specs/sch_app.sql" relativeToChangelogFile="true"/>
+<include file="smuench/triggers/sch_course_biu.sql" relativeToChangelogFile="true"/>
+<include file="smuench/package_bodies/sch_app.sql" relativeToChangelogFile="true"/>
+<include file="smuench/tables/sch_course_instructor.sql" relativeToChangelogFile="true"/>
+<include file="smuench/tables/sch_department.sql" relativeToChangelogFile="true"/>
+<include file="smuench/tables/sch_instructor.sql" relativeToChangelogFile="true"/>
+<include file="smuench/indexes/sch_course_i1.sql" relativeToChangelogFile="true"/>
+<include file="smuench/indexes/sch_course_instructor_i1.sql" relativeToChangelogFile="true"/>
+<include file="smuench/indexes/sch_course_instructor_i2.sql" relativeToChangelogFile="true"/>
+<include file="smuench/indexes/sch_instructor_i1.sql" relativeToChangelogFile="true"/>
+<include file="smuench/ref_constraints/sch_course_department_id_fk.sql" relativeToChangelogFile="true"/>
+<include file="smuench/ref_constraints/sch_course_instructor_course_id_fk.sql" relativeToChangelogFile="true"/>
+<include file="smuench/ref_constraints/sch_course_instructor_instructor_id_fk.sql" relativeToChangelogFile="true"/>
+<include file="smuench/ref_constraints/sch_instructor_department_id_fk.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>
